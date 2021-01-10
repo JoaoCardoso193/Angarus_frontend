@@ -46,7 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     messageForm.addEventListener('submit', () => {
       event.preventDefault()
-      let input = event.target[0].value
 
       configObj = {
           method: "POST",
@@ -66,6 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(json => {
         response.innerText = json['status']
         })
+      messageForm.reset()
     })
 
 
