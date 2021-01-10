@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       fetch('https://angarusapi.herokuapp.com/messages', configObj)
       .then(res => res.json())
       .catch((err) => {
-        response.innerText = 'Server error: ' + err.message
+        response.innerText = 'Server-side error: ' + err.message
       })
       .then(json => {
         response.innerText = json['status']
