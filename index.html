@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="form-style-6" id='messageForm'>
+    <div class="form-style-6">
       <h1>Welcome, any messages you send here will be read out loud by my computer!</h1>
-      <form>
+      <form id='messageForm'>
       <input type="text" name="field1" placeholder="Your Name (optional)" maxlength="50" />
       <textarea name="field3" placeholder="Type your Message" maxlength = "280" style="resize: none"></textarea>
       <input type="submit" value="Send" />
-      </form>
       <p>Note: If you get a fetch error, please allow some seconds for the API to awaken.</p>
+      </form>
     </div>
   </body>
 </html>
