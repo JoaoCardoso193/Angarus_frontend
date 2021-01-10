@@ -1,3 +1,5 @@
+body {background-color:#dadada}
+
 .form-style-6{
 	font: 95% Arial, Helvetica, sans-serif;
 	max-width: 800px;
@@ -6,7 +8,7 @@
 	background: #F7F7F7;
 }
 .form-style-6 h1{
-	background: #43D1AF;
+	background: #02bfe0;
 	padding: 20px 0;
 	font-size: 140%;
 	font-weight: 300;
@@ -52,9 +54,9 @@
 .form-style-6 textarea:focus,
 .form-style-6 select:focus
 {
-	box-shadow: 0 0 5px #43D1AF;
+	box-shadow: 0 0 5px #02bfe0;
 	padding: 3%;
-	border: 1px solid #43D1AF;
+	border: 1px solid #02bfe0;
 }
 
 .form-style-6 input[type="submit"],
@@ -64,8 +66,8 @@
 	-moz-box-sizing: border-box;
 	width: 100%;
 	padding: 3%;
-	background: #43D1AF;
-	border-bottom: 2px solid #30C29E;
+	background: #02bfe0;
+	border-bottom: 2px solid #02bfe0;
 	border-top-style: none;
 	border-right-style: none;
 	border-left-style: none;	
@@ -73,5 +75,5 @@
 }
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover{
-	background: #2EBC99;
+	background: #03b4d3;
 }
